@@ -55,7 +55,7 @@ An international e-commerce company that sells electronic products want to disco
 • Select the best model<br>
 <br><br>
 ## **Model Evaluation**
-| Model | Accurarcy | Precision | Recall | F1-Score | AUC |
+| Model | Accuracy | Precision | Recall | F1-Score | AUC |
 | ----------- | ----------- | ----------- | ----------- | ----------- |
 | Decision Tree | 0.65 | 0.72 | 0.66 | 0.69 | 0.65 | 
 | Logistic Regression | 0.58 | 0.58 | 1.00 | 0.73 | 0.50 | 
@@ -67,19 +67,60 @@ An international e-commerce company that sells electronic products want to disco
 
 <table>
   <tr>
-    <th>Person 1</th>
-    <th>Person 2</th>
-    <th>Person 3</th>
+    <th>Model</th>
+    <th>Accuracy</th>
+    <th>Precision</th>
+    <th>Recall</th>
+    <th>F1-Score</th>
+    <th>AUC</th>
   </tr>
   <tr>
-    <td>Emil</td>
-    <td>Tobias</td>
-    <td>Linus</td>
+    <td>Decision Tree</td>
+    <td>0.65</td>
+    <td>0.72</td>
+    <td>0.66</td>
+    <td>0.69</td>
+    <td>0.65</td>
   </tr>
   <tr>
-    <td>16</td>
-    <td>14</td>
-    <td>10</td>
+    <td>Logistic Regression</td>
+    <td>0.58</td>
+    <td>0.58</td>
+    <td>1.00</td>
+    <td>0.73</td>
+    <td>0.50</td>
+  </tr>
+  <tr>
+    <td>lightgbm</td>
+    <td>0.66</td>
+    <td>0.76</td>
+    <td>0.60</td>
+    <td>0.67</td>
+    <td>0.739</td>
+  </tr>
+  <tr>
+    <td>KNN</td>
+    <td>0.66</td>
+    <td>0.78</td>
+    <td>0.56</td>
+    <td>0.65</td>
+    <td>0.67</td>
+  </tr>
+  <tr>
+    <td>Random Forest</td>
+    <td>0.68</td>
+    <td>0.82</td>
+    <td>0.56</td>
+    <td>0.67</td>
+    <td>0.70</td>
+  </tr>
+  <tr>
+    <td>XGBoost</td>
+    <td>0.65</td>
+    <td>0.71</td>
+    <td>0.67</td>
+    <td>0.69</td>
+    <td>0.65</td>
   </tr>
 </table>
 Based on the model evaluation (AUC Score And Recall), We Choose Decision Tree algorithm .
