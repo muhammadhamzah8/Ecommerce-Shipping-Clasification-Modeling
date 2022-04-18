@@ -55,14 +55,6 @@ An international e-commerce company that sells electronic products want to disco
 • Select the best model<br>
 <br><br>
 ## **Model Evaluation**
-| Model | Accuracy | Precision | Recall | F1-Score | AUC |
-| ----------- | ----------- | ----------- | ----------- | ----------- |
-| Decision Tree | 0.65 | 0.72 | 0.66 | 0.69 | 0.65 | 
-| Logistic Regression | 0.58 | 0.58 | 1.00 | 0.73 | 0.50 | 
-| lightgbm | 0.66 | 0.76 | 0.60 | 0.67 | 0.739 | 
-| KNN | 0.66 | 0.78 | 0.56 | 0.65 | 0.67 | 
-| Random Forest | 0.68 | 0.82 | 0.56 | 0.67 | 0.70 | 
-| XGBoost | 0.65 | 0.71 | 0.67 | 0.69 | 0.65 |
 <br> 
 
 <table>
