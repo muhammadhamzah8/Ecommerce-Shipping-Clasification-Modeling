@@ -41,7 +41,7 @@ An international e-commerce company that sells electronic products want to disco
 <br><br>
 ## **Data Processing**<br>
 • Check missing & duplicate values<br>
-• Remove outliers with z-score
+• Remove outliers with z-score<br>
 • Ordinal encoding for `Importance` column & feature encoding the rest of categorical columns<br>
 • Select best features for modeling<br>
 • Normalize & Standarize all selected features <br>
