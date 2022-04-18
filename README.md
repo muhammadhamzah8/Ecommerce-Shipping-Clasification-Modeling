@@ -1,4 +1,4 @@
-# Ecommerce-Shipping-Predictive-Modeling
+# Ecommerce-Shipping-Clasification-Modeling
 Data source : https://www.kaggle.com/prachi13/customer-analytics
 
 ## **Project Overview** 
@@ -49,7 +49,7 @@ An international e-commerce company that sells electronic products want to disco
 ## **Modeling**<br>
 • Split features & target<br>
 • Split data into data train & data test<br>
-• Train model with 5 different algorithm such as Logistic Regression, Random Forest, XGBoost & AdaBoost<br>
+• Train model with 5 different algorithm such as Decision Tree, Logistic Regression, Random Forest, XGBoost , KNN, Lightgbm<br>
 • Evaluate model with Recall, Average Precision (AP) & ROC Score<br>
 • Validate model with train, test accuracy & AP train, AP test as well<br>
 • Hyperparameter tuning<br>
