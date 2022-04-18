@@ -64,7 +64,25 @@ An international e-commerce company that sells electronic products want to disco
 | Random Forest | 0.68 | 0.82 | 0.56 | 0.67 | 0.70 | 
 | XGBoost | 0.65 | 0.71 | 0.67 | 0.69 | 0.65 |
 <br> 
-Based on the model evaluation (AUC Score And Recall), Decision Tree algorithm we choose to Last Model We use.
+
+<table>
+  <tr>
+    <th>Person 1</th>
+    <th>Person 2</th>
+    <th>Person 3</th>
+  </tr>
+  <tr>
+    <td>Emil</td>
+    <td>Tobias</td>
+    <td>Linus</td>
+  </tr>
+  <tr>
+    <td>16</td>
+    <td>14</td>
+    <td>10</td>
+  </tr>
+</table>
+Based on the model evaluation (AUC Score And Recall), We Choose Decision Tree algorithm .
 
 
 ## **Recommendations**<br>
