@@ -41,30 +41,30 @@ An international e-commerce company that sells electronic products want to disco
 <br><br>
 ## **Data Processing**<br>
 • Check missing & duplicate values<br>
-• Remove outliers for `Purchase` feature by IQR limit & replace outliers for `Discount` feature with IQR limit<br>
+• Remove outliers with z-score
 • Ordinal encoding for `Importance` column & feature encoding the rest of categorical columns<br>
 • Select best features for modeling<br>
-• Normalize all selected features <br>
+• Normalize & Standarize all selected features <br>
 <br><br>
 ## **Modeling**<br>
 • Split features & target<br>
 • Split data into data train & data test<br>
-• Train model with 5 different algorithm such as Decision Tree, Logistic Regression, Random Forest, XGBoost , KNN, Lightgbm<br>
-• Evaluate model with Recall, Average Precision (AP) & ROC Score<br>
-• Validate model with train, test accuracy & AP train, AP test as well<br>
+• Train model with 5 different algorithm such as Decision Tree, Logistic Regression, Random Forest, XGBoost , KNN, & Lightgbm<br>
+• Evaluate model with Accuracy, Precision, Recall, F1-Score and AUC and focus on AUC Score<br>
 • Hyperparameter tuning<br>
 • Select the best model<br>
 <br><br>
 ## **Model Evaluation**
-| Score | Random Forest | Logistic Regression | AdaBoost | XGBoost |
+| Model | Accurarcy | Precision | Recall | F1-Score | AUC |
 | ----------- | ----------- | ----------- | ----------- | ----------- |
-| Recall | 0.57 | 0.73 | 0.60 | 0.68 |
-| AP | 0.74 | 0.67 | 0.70 | 0.68 |
-| ROC | 0.70 | 0.62 | 0.68 | 0.66 |
-| AP Train | 0.74 | 0.67 | 0.72 | 0.93 |
-| AP Test | 0.74 | 0.67 | 0.70 | 0.68 | 
+| Decision Tree | 0.65 | 0.72 | 0.66 | 0.69 | 0.65 | 
+| Logistic Regression | 0.58 | 0.58 | 1.00 | 0.73 | 0.50 | 
+| lightgbm | 0.66 | 0.76 | 0.60 | 0.67 | 0.739 | 
+| KNN | 0.66 | 0.78 | 0.56 | 0.65 | 0.67 | 
+| Random Forest | 0.68 | 0.82 | 0.56 | 0.67 | 0.70 | 
+| XGBoost | 0.65 | 0.71 | 0.67 | 0.69 | 0.65 |
 <br> 
-Based on the model evaluation, Random Forest algorithm has the best result.
+Based on the model evaluation (AUC Score And Recall), Decision Tree algorithm we choose to Last Model We use.
 
 
 ## **Recommendations**<br>
