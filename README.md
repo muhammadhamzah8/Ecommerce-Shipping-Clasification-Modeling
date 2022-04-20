@@ -16,11 +16,17 @@ Data source : https://www.kaggle.com/prachi13/customer-analytics
 </details>
 
 ## **Project Overview** 
+• Stage 1 : We focus on Data Exploration, Exploratory Data Analysis, Business Insight and Visualization <br>
+• Stage 2 : We focus on Data Cleansing and Feature Engineering <br>
+• Stgae 3 : And then on last stage, We focus Modeling and Evaluation <br>
+
+Overall Project :
 • Seek insight from the dataset with Exploratory Data Analysis <br>
 • Performed data cleansing, data processing, data engineering to prepare data before modeling <br>
 • Built a model to predict whether the shipping deliveries will be received late or on time by the customers <br>
 • Developt  recommendations & benefit analysis based on insights and model prediction 
 <br>
+
 ## **Background and Problem**
 An international e-commerce company that sells electronic products want to discover key insights from their customer database. Currently, most of the shipping deliveries are late. 
 <br>
