@@ -1,13 +1,27 @@
 # Ecommerce-Shipping-Clasification-Modeling
 Data source : https://www.kaggle.com/prachi13/customer-analytics
 
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#project-overview">Project Overview</a>
+    </li>
+    <li><a href="#background-and-problem">Background and Problem</a></li>
+    <li><a href="#exploratory-data-analysis">Exploratory Data Analysis</a></li>
+    <li><a href="#data-processing">Data Processing</a></li>
+    <li><a href="#modelling">Modelling</a></li>
+    <li><a href="#business-recommendations">Business Recommendations</a></li>
+  </ol>
+</details>
+
 ## **Project Overview** 
 • Seek insight from the dataset with Exploratory Data Analysis <br>
 • Performed data cleansing, data processing, data engineering to prepare data before modeling <br>
 • Built a model to predict whether the shipping deliveries will be received late or on time by the customers <br>
 • Developt  recommendations & benefit analysis based on insights and model prediction 
 <br>
-## **Background & Problems**
+## **Background and Problem**
 An international e-commerce company that sells electronic products want to discover key insights from their customer database. Currently, most of the shipping deliveries are late. 
 <br>
 ## **Exploratory Data Analysis**
@@ -46,7 +60,7 @@ An international e-commerce company that sells electronic products want to disco
 • Select best features for modeling<br>
 • Normalize & Standarize all selected features <br>
 <br><br>
-## **Modeling**<br>
+## **Modelling**<br>
 • Split features & target<br>
 • Split data into data train & data test<br>
 • Train model with 5 different algorithm such as Decision Tree, Logistic Regression, Random Forest, XGBoost , KNN, & Lightgbm<br>
@@ -118,7 +132,7 @@ An international e-commerce company that sells electronic products want to disco
 Based on the model evaluation (AUC Score And Recall), We Choose Decision Tree algorithm .
 
 
-## **Recommendations**<br>
+## **Business Recommendations**<br>
 ### Short terms
 • Add estimatedarrival time to assure the package arrived on time<br>
 • Give credit points as a compensations to retain customer loyalty<br>
