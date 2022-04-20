@@ -20,7 +20,7 @@ Data source : https://www.kaggle.com/prachi13/customer-analytics
 • Stage 2 : We focus on Data Cleansing and Feature Engineering <br>
 • Stgae 3 : And then on last stage, We focus Modeling and Evaluation <br>
 
-Overall Project :
+Overall Project : <br>
 • Seek insight from the dataset with Exploratory Data Analysis <br>
 • Performed data cleansing, data processing, data engineering to prepare data before modeling <br>
 • Built a model to predict whether the shipping deliveries will be received late or on time by the customers <br>
